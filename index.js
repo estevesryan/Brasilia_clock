@@ -24,4 +24,5 @@ function clock() {
     minutesBlock.innerHTML = minutes;
     secondsBlock.innerHTML = seconds;
 }
+
 timer = setInterval(clock, 1000);
